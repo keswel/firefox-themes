@@ -1,32 +1,52 @@
-# firefox-themes
-Switch Firefox themes from the command line.
+#  firefox-themes  
+Switch Firefox themes from the command line with ease.
 
-# Setup Instructions
-1. Compile and run program:
+---
 
-```java
+##  Setup Instructions
+
+### 1. Compile and Run the Program
+
+```bash
 javac firefoxThemes.java
 java firefoxThemes
 ```
-2. When prompted, type:
-    create config:
-    ```
-    y
-    ```
-    firefox theme path (NOTE: firefox-themes is recommended and default):
-    ```
-    firefox-themes
-    ```
-    chrome path:
-    ```
-    // the path to your Firefox chrome folder (see step below)
-    ```
-3. How to find Chrome folder:
-    1. Open Firefox
-    2. Type about:support in the address bar and press Enter
-    3. Look for the Profile Directory section
-    4. Click Open Directory
-    5. Find the chrome folder
-    6. Copy the full path to that folder
-    7. Paste it into the program when prompted and press Enter
 
+---
+
+### 2. When Prompted, Enter the Following:
+
+- **Create config:**
+
+```bash
+y
+```
+
+- **Theme path**  
+  _(Recommended and default: `firefox-themes`)_
+
+```bash
+firefox-themes
+```
+
+- **Chrome path**  
+  _(This is the path to your Firefox `chrome` folder — see below for how to find it.)_
+
+```bash
+/path/to/your/firefox/profile/chrome
+```
+
+---
+
+### 3. How to Find the Chrome Folder
+
+1. Open **Firefox**
+2. In the address bar, type `about:support` and press **Enter**
+3. Under **Profile Directory**, click **Open Directory**
+4. Locate the `chrome` folder (create one if it doesn't exist)
+5. Copy the full path to that folder
+6. Paste it into the program when prompted and press **Enter**
+
+---
+
+✅ That’s it — your config file will be created and you're ready to switch themes!
