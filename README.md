@@ -1,5 +1,21 @@
-# 🔥 firefox-themes  
+#  firefox-themes  
 Switch Firefox themes from the command line with ease.
+
+---
+
+## 🎨 How to Add Themes
+
+`firefox-themes` comes with 4 built-in theme presets.
+
+To add more themes:
+
+1. Visit the [Firefox CSS Store](https://firefoxcss-store.github.io/)
+2. Browse and install any theme you like
+3. Copy the downloaded theme files into your selected theme folder  
+   _(by default, this is `firefox-themes`)_
+4. Restart Firefox — you're done!
+
+> 💡 Themes usually include a `userChrome.css` file, sometimes along with other assets (images, variables, fonts, etc). Keep each theme in its own subfolder inside your theme directory for easy management.
 
 ---
 
@@ -41,9 +57,10 @@ firefox-themes
 ### 3. How to Find the Chrome Folder
 
 1. Open **Firefox**
-2. In the address bar, type `about:support` and press **Enter**
+2. Type `about:support` in the address bar and press **Enter**
 3. Under **Profile Directory**, click **Open Directory**
-4. Locate the `chrome` folder (create one if it doesn't exist)
+4. Locate the `chrome` folder  
+   _(create it if it doesn't exist)_
 5. Copy the full path to that folder
 6. Paste it into the program when prompted and press **Enter**
 
@@ -51,23 +68,22 @@ firefox-themes
 
 ### ⚠️ Required: Enable `userChrome.css` Support in Firefox
 
-Before custom themes can work, Firefox needs to allow UI customization:
+Before custom themes can take effect, you must allow Firefox to load user styles.
 
 1. Open Firefox and go to:
    ```
    about:config
    ```
-2. Accept the warning if prompted.
+2. Accept the warning if it appears
 3. Search for:
    ```
    toolkit.legacyUserProfileCustomizations.stylesheets
    ```
-4. Set it to `true` (double-click it to toggle).
-
-5. Restart Firefox to apply the changes.
+4. Set it to `true` (double-click to toggle)
+5. Restart Firefox
 
 This tells Firefox to load your `userChrome.css` file at startup.
 
 ---
 
-✅ That’s it — your config file will be created and you're ready to switch themes!
+✅ That’s it — your config will be saved and you’re ready to switch themes!
