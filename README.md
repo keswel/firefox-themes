@@ -1,9 +1,9 @@
-#  firefox-themes  
+# 🔥 firefox-themes  
 Switch Firefox themes from the command line with ease.
 
 ---
 
-##  Setup Instructions
+## ⚙️ Setup Instructions
 
 ### 1. Compile and Run the Program
 
@@ -46,6 +46,27 @@ firefox-themes
 4. Locate the `chrome` folder (create one if it doesn't exist)
 5. Copy the full path to that folder
 6. Paste it into the program when prompted and press **Enter**
+
+---
+
+### ⚠️ Required: Enable `userChrome.css` Support in Firefox
+
+Before custom themes can work, Firefox needs to allow UI customization:
+
+1. Open Firefox and go to:
+   ```
+   about:config
+   ```
+2. Accept the warning if prompted.
+3. Search for:
+   ```
+   toolkit.legacyUserProfileCustomizations.stylesheets
+   ```
+4. Set it to `true` (double-click it to toggle).
+
+5. Restart Firefox to apply the changes.
+
+This tells Firefox to load your `userChrome.css` file at startup.
 
 ---
 
