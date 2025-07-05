@@ -1,6 +1,10 @@
 #  firefox-themes  
 Switch Firefox themes from the command line with ease.
 
+https://github.com/user-attachments/assets/3454cd8a-b0a8-4ae0-9727-4525657c2613
+
+
+
 ---
 
 ## 🎨 How to Add Themes
